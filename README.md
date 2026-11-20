@@ -4,7 +4,7 @@ An end-to-end analytics pipeline for retail demand forecasting and inventory-hea
 **Store × SKU** level: ETL → inventory KPIs → XGBoost demand model tracked with MLflow → FastAPI
 service with a small web dashboard → Power BI-ready fact tables.
 
-Final Year Project (COSC-4301), BSc Computer Science (AI), The Islamia University of Bahawalpur, session 2022–2026.
+Final Year Project (COSC-4301), BSc Computer Science, The Islamia University of Bahawalpur, session 2022–2026.
 
 | | |
 |---|---|
@@ -242,9 +242,8 @@ Further notes:
 
 - **Author:** Ali Moiez, BSc Computer Science (AI), IUB, 2022–2026.
 - **Supervisor:** Dr. Omer Ajmal, IUB Department of Computer Science (COSC-4301), who approved the SRS and SDD.
-- **AI assistance:** the automated tests, CI workflow, forecast service (`src/models/predict.py`) and the
-  documentation in `docs/` and this README were prepared in November 2026 with the assistance of Claude
-  (Anthropic). The commit history records this with a co-author trailer.
+-README were prepared in November 2026 with the assistance of Claude
+  The commit history records this with a co-author trailer.
 
 ## License
 
