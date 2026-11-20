@@ -1,0 +1,10 @@
+# Runtime dependencies. Versions for numpy/pandas/scikit-learn/xgboost/mlflow match
+# the environment recorded by the MLflow run (Python 3.13).
+fastapi>=0.115
+uvicorn>=0.30
+pydantic>=2.7
+numpy==2.4.4
+pandas==2.3.3
+scikit-learn==1.8.0
+xgboost==3.2.0
+mlflow==3.11.1

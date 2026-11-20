@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data and generated artefacts (reproducible via the pipeline; see README)
+/data/raw/*
+!/data/raw/README.md
+/data/*.csv
+/models/
+/mlruns/
+/mlflow.db
+/mlartifacts/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Secrets
+.env
